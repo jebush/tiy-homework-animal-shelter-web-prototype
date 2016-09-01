@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Animal Shelter</title>
+</head>
+<body>
+<h1>Animal Shelter</h1>
+<div>
+    <ul>
+        <li><a href="ListAnimal.html" target="_self">List Animals</a></li>
+
+        <li><a href="AddAnimal.html" target="_parent">Add an Animal</a></li>
+    </ul>
+</div>
+
+<br />
+
+
+<h2>List Animals</h2>
+<div>
+    <form action="https://tiy-test-form-target.herokuapp.com/post" method="post" enctype="multipart/form-data">
+        <p>Search for an animal:</p>
+        <input name="name" type="text" placeholder="Name" >
+
+        <label>Type</label>
+        <select id = "myList">
+            <option value = "1">Cat</option>
+            <option value = "2">Bird</option>
+            <option value = "3">Dog</option>
+            <option value = "4">Duck</option>
+        </select>
+
+        <input name="id" type="number" placeholder="id">
+        <button type="submit">Search</button>
+
+    </form>
+</div>
+
+<br/>
+
+<div>
+    <img src="" />
+    <p><a href="">Bob</a></p>
+    <p><strong>Type</strong>: Cat</p>
+    <p><strong>Breed</strong>: Tabby</p>
+    <p><strong>Description</strong>: Big fat and fuzzy</p>
+    <p><strong>Notes</strong>: 5 notes</p>
+
+</div>
+<br />
+<div>
+    <img src="" />
+    <p><a href="">Wanda</a></p>
+    <p><strong>Type</strong>: Dog</p>
+    <p><strong>Breed</strong>: Bulldog</p>
+    <p><strong>Description</strong>: A handsome beast</p>
+    <p><strong>Notes</strong>: 3 notes</p>
+
+</div>
+<br />
+<div>
+    <img src="" />
+    <p><a href="">Peter Parker</a></p>
+    <p><strong>Type</strong>: Spider</p>
+    <p><strong>Breed</strong>: Trantula</p>
+    <p><strong>Description</strong>: Seriously, who gets a pet spider?!</p>
+    <p><strong>Notes</strong>: 0 notes</p>
+
+</div>
+<br />
+<div>
+    <img src="" />
+    <p><a href="">Thor</a></p>
+    <p><strong>Type</strong>: Fish</p>
+    <p><strong>Breed</strong>: Goldfish</p>
+    <p><strong>Description</strong>: It's orange.</p>
+    <p><strong>Notes</strong>: 1 notes</p>
+
+</div>
+
+</body>
+</html>

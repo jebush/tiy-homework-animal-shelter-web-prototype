@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Animal Shelter</title>
+</head>
+<body>
+<h1>Animal Shelter</h1>
+<div>
+    <p>
+        <a href="ListAnimal.html" target="_self">List Animals</a>
+        |
+        <a href="AddAnimal.html" target="_parent">Add an Animal</a>
+    </p>
+</div>
+
+<br />
+
+<h2>Animal Notes</h2>
+
+<div>
+    <img src="" />
+    <p><a href="">Bob</a></p>
+    <p><strong>Type</strong>: Cat</p>
+    <p><strong>Breed</strong>: Tabby</p>
+    <p><strong>Description</strong>: Big fat and fuzzy</p>
+
+</div>
+
+<div>
+    Date    note
+    8/29/16 Went to visit vet
+    8/30/16 Only eat filet mignon
+</div>
+
+<div>
+    <form action="https://tiy-test-form-target.herokuapp.com/post" method="post" enctype="multipart/form-data">
+
+        <label>Add a note:</label>
+        <br />
+        <textarea name="description" maxlength="500" rows="10" required></textarea>
+        <br />
+        <button type="submit">Add Note</button>
+
+    </form>
+</div>
+
+<br/>
+
+
+</body>
+</html>
